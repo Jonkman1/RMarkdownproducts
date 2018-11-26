@@ -1,0 +1,74 @@
+---
+title: "Leefomstandigheden inwoners met een Antilliaanse achtergrond in Den Haag"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Inwoners Nederland
+
+
+
+![Fig. 1: Inwoners Nederland](H:/DenHaag/img/Fig1.jpg){width=200% height=200%}
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Inwoners Den Haag
+ 
+
+![Fig 2: Inwoners Den Haag](H:/DenHaag/img/Fig2.jpg){width=200% height=200%}
+
+
+### Leeftijdsopbouw
+
+```{r table-aligned, echo=FALSE}
+library(knitr)
+library(kableExtra)
+myTable<- data.frame(
+  header1=
+    c("Nederlands",
+      "Surinaams-Nederlands",
+      "Antilliaans-Nederlands",
+      "Turks-Nederlands",
+      "Marokkaans-Nederlands",
+      "Overig niet-westers",
+      "Westers",
+      "Totaal"),
+  header2=
+    c("6,9",
+      "18,1",
+      "17,2",
+      "13,1",
+      "12,2",
+      "11,9",
+      "7,3",
+      "9,4"),
+  header3=
+    c("6,1",
+      "22,3",
+      "23,9",
+      "13,7",
+      "15,2",
+      "13,6",
+      "8,7",
+      "10,6")
+  
+)
+
+  kable(myTable,
+        col.names = c("Achtergronden", "Den Haag", "Rotterdam"),
+        caption = "Percentage eenoudergezinnen Den Haag en Rotterdam, 2017")
+
+```
+
+In Den Haag valt de grootste groep inwoners in de leeftijdscategorie 20-44 jaar (37%). Bijna de helft van de Antilliaans-Nederlandse inwoners is tussen de 20-44 jaar oud. Bij de inwoners met een Ne-derlandse achtergrond ligt dit percentage rond de 30%. Het aantal kinderen en jeugdigen (0-19 jaar) van inwoners met een Antilliaanse achtergrond volgt de lijn van het totale aantal inwoners in Den Haag. Het aantal ouderen is echter weer lager dan gemiddeld. Ditzelfde geldt ook voor oudere inwoners met een Marokkaanse of Turkse achtergrond.    
