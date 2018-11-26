@@ -1,0 +1,140 @@
+---
+title: "Leefomstandigheden inwoners met een Antilliaanse achtergrond in Den Haag"
+subtitle: "Presentatie van factsheet"
+author: "Esther Horrevorts"
+date: "21-10-2018"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Eerder onderzoek
+
+Zorgelijk beeld van de leefomstandigheden van kinderen met een Antilliaanse- of Arubaanse achtergrond in Nederland (Tierolf, Steketee, Gilsing & Bellaart, 2017)
+
+## Wat viel op t.o.v.kinderen andere herkomst?
+
+- Scoren hoogst op de risico's armoede, eenoudergezinnen, jeugdwerkloosheid en gebruik jeugdhulp.
+- Ze wonen vaker in slechtere en kansarme wijk
+- Ze voelen zich daar minder veilig
+- Een deel van hen doet het relatief goed in onderwijs en op arbeidsmarkt
+
+## Vraag
+
+> Actieve organisaties voor en door Antilliaanse Nederlanders in Den Haag (HAAB en OCAN) verzochten Kennisplatform Integratie & Samenleving om deze situatie in kaart te brengen
+
+## Presentatie van:
+
+1. Antilliaanse-Nederlanders in Den Haag
+2.  Opleidingsniveau en Onderwijs
+
+## 1. Antilliaanse-Nederlanders in Den Haag
+
+## Inwoners van Nederland
+
+```{r, echo=FALSE, fig.cap="Bron: CBS Statline 2018"}
+knitr::include_graphics("H:/DenHaag/img/Fig1.jpg")
+
+```
+
+## Inwoners Den Haag
+
+
+```{r, echo=FALSE, fig.cap="Bron: CBS Statline 2018"}
+knitr::include_graphics("H:/DenHaag/img/Fig2.jpg")
+
+```
+
+## Vergelijking G4-steden
+
+|Steden    |Percentage
+|----------|----------
+|Den Haag  |5,9%
+|Rotterdam |3,9%
+|Amsterdam |1,5%
+|Utrecht   |0,8%
+
+## Verdeling naar wijken in Den Haag 
+
+|Bepaalde wijken |Percentage
+|----------------|----------
+|Stationsbuurt   |8,4%
+|Laakkwartier    |4,8%
+|Moerwijk        |4,8%
+
+
+
+## Leeftijdsopbouw
+
+
+```{r, echo=FALSE, fig.cap="Bron: Buurtmonitor Den Haag 2017"}
+knitr::include_graphics("H:/DenHaag/img/Fig3.jpg")
+
+```
+
+## Percentages eenoudergezinnen naar herkomst
+
+|Herkomst       |Den Haag    |Rotterdam
+|---------------|------------|---------
+|Nederlands     |6,9%        |6,1%
+|Surinaams-Ned  |18,1%       |22,3%
+|Antilliaans-Ned|17,2%       |23,9%
+|Turks-Ned      |13,1%       |13,7%
+|Marokkaans-Ned |12,2%       |15,2%
+|Westers        |7,3%        |8,7%
+
+
+
+## Mogelijke verklaringen eenoudergezinnen
+
+>"Het feit dat eenoudergezinnen veelvuldig voorkomen bij gezinnen met een Antilliaanse achtergrond, kan verklaard worden door de man-vrouw relatie in Antilliaanse gezinnen."
+
+- Geen sterke koppeling met samenwonen of trouwen (Distelbrink & Kenter, 2011)
+- Tweeoudergezin wel ideaal maar niet gerealiseerd (Distelbrink, 2000)
+
+## 2. Opleidingsniveau en Onderwijs
+
+## Opleidingsniveau Nederland
+
+```{r, echo=FALSE, fig.cap="Bron: CBS 2018"}
+knitr::include_graphics("H:/DenHaag/img/Fig5.jpg")
+
+```
+## Opleidingsniveau Den Haag
+
+
+```{r, echo=FALSE, fig.cap="Bron: De Gruijter, Gilsing & Pels, 2014"}
+knitr::include_graphics("H:/DenHaag/img/Fig4.jpg")
+
+```
+## Voortijdigsschoolverlaten Den Haag(2011-2012) en Rotterdam (2014)
+
+|Herkomst       |n (DH)    |% (DH)   |n(R)     |%(R)
+|---------------|----------|---------|--------|-------
+|Nederlands     |545       |4,0%     |1.657   |5,1%
+|Antilliaans-Ned|104       |9,2%     |358     |7,4%
+|Marokkaans-Ned |187       |5,7%     |517     |6,1%
+|Turks-Ned      |228       |5,4%     |645     |6,9%
+|Surinaams-Ned  |203       |4,8%     |375     |6,3%
+|Niet-westers   |172       |4,8%     |375     |4,8%
+|Westers        |161       |5,7      |351     |4,5%
+
+
+
+## Mogelijke verklaringen
+> "Leerlingen met een migratieachtergrond verlaten school vaker vroegtijdig dan leerlingen met een Nederlandse achtergrond.Dit geldt met name voor jongeren met een Antilliaanse achtergrond."
+
+Samenstelling van gezin (eenoudergezin) vormt risicofactor (Traag & Van der Velden, 2008)
+- Minder sociale interactie
+- Minder gebruik maken van hulpbronnen
+
+## De factsheet
+
+De publicatie vind je hier:
+
+<https://www.verwey-jonker.nl/publicaties/2018/leefomstandigheden-inwoners-met-een-antilliaanse-achtergrond-in-den-haag>.
+
+
+
